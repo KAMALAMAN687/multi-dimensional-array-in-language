@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int i,a[4],b[10]={0,0},l=0,j;
-      for(i=0;i<4;i++)
+    int i,a[10],b[100]={0,0},l=0,j;
+      for(i=0;i<10;i++)
     {
         scanf("%d",&a[i]);
 
     }
-    for(i=0;i<4;i++)
+    for(i=0;i<10;i++)
     {
         b[a[i]]++;
     }
